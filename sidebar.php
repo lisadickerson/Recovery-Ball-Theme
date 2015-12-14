@@ -1,0 +1,1 @@
+<!--Required :sidebar.php is required to make themes work wp3.0 and up-->

@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/*photo gallery page styles to get rows*/
+/*my original template photo styles
+ * 
+ * 
+ 
+#middle #content #blog .photo-row {
+	height: 210px;
+	width: 580px;
+	margin-bottom: 20px;
+}
+.gallery-item{
+	height: 210px;
+	width: 280px;
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+	
+}
+
+#middle #content #blog .photo-row img{
+	height: 210px;
+	width: 280px;
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+#middle #content #blog .photo-row img:first-child{
+	margin-left: -5px;
+	margin-right: 17px;
+	
+}
+*/	
+
+/*.attachment-thumbnail{height: 100%;
+	width: 100%px;}
+*/
+#middle #content .gallery{
+	margin:0px 0 0 -3px;
+	width:600px;
+	/*border: thin solid #000;*/
+
+}
+.gallery  a {
+		border:none!important;
+}	
+/*.gallery { width:600; margin:-10px 0 20px 0;border: thin solid #foo; }*/
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery-columns-2 .gallery-item { 
+	/*height: 210px;*/
+	width: 280px;margin:0 20px 20px 0;
+	 }
+	
+/*.gallery-columns-2 .gallery-item:first-child  {margin-left: -5px;
+	margin-right: 17px;  }*/	
+	
+.gallery-columns-4 .gallery-item { width: 25%; }
+
+.gallery img {
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+	margin-bottom: 20px;
+	width: 280px;
+	height: 210px;
+}
+/*.gallery img:first-child {
+	margin-left: -5px;
+	margin-right: 17px;
+}
+*/
+.gallery img:hover {
+	background: white;
+}
+.gallery-columns-2 .attachment-medium {
+	max-width: 92%;
+	height: auto;
+}
+
+ .gallery-columns-2 .gallery-size-thumbnail{
+ 	width: 280;
+	height: 210;
+ }
+.gallery-columns-2 .attachment-thumbnail {
+	max-width: 280;
+	height: 210;
+}
+.gallery-columns-4 .attachment-thumbnail {
+	max-width: 84%;
+	height: auto;
+}
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+.gallery dl, .gallery dt { margin: 0; }
+.gallery br+br { display: none; }
