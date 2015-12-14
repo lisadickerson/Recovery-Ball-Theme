@@ -167,9 +167,12 @@ General comments:
 /* Instructive dash board widget for theme demo. 
 /* Adds a widget in Dashboard / Home with instructions for required plugins and importing demo content xml file.
 /* http://code.tutsplus.com/tutorials/how-to-build-custom-dashboard-widgets--wp-29778
-/*----------------------------------------------------------------------------------------------------------------*/  	 
+/*----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* Comment out until demo content is hosted.
+/*
 
-		function register_my_dashboard_widget() {
+function register_my_dashboard_widget() {
 		 	global $wp_meta_boxes;
 		
 			wp_add_dashboard_widget(
@@ -208,7 +211,8 @@ General comments:
 * It can turned back on in the screen options.
 * http://wordpress.stackexchange.com/questions/36402/3-3-how-do-you-hide-the-new-dashboard-welcome-panel
 */
-
+/* Comment out until demo content is hosted.
+/*
 add_action( 'load-index.php', 'hide_welcome_panel' );
 
 function hide_welcome_panel() {
@@ -217,5 +221,6 @@ function hide_welcome_panel() {
 	if ( 1 == get_user_meta( $user_id, 'show_welcome_panel', true ) )
 		update_user_meta( $user_id, 'show_welcome_panel', 0 );
 }
+*/
 // close functions.php
 ?>
